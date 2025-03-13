@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const myBaseurl = 'https://eventify-manager-api.onrender.com';
-const myBaseurl = 'http://localhost:3000';
+const myBaseurl = 'https://eventify-calendar-discord.onrender.com';
+// const myBaseurl = 'http://localhost:3000';
 
 const AxiosInstance = axios.create({
     baseURL: myBaseurl,
