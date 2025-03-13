@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.fc-event {
+  cursor: pointer;
+}
+
+.fc-event, .fc-daygrid-event, .fc-event-title {
+  background-color: #3788d8 !important;
+  border-color: #3788d8 !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
+.fc-event-time {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.fc-day-today{
+  background-color: aquamarine !important;
+}
