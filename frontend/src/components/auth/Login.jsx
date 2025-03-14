@@ -20,7 +20,7 @@ const Login = () => {
 
     window.addEventListener("message", (event) => {
       
-      if (event.origin !== "http://localhost:3000") return;
+      if (event.origin !== "https://eventify-calendar-discord.onrender.com") return;
       const { token, redirectTo } = event.data;
 
       AxiosInstance.post('auth/set-token', { token }).then((res) => {

@@ -36,7 +36,7 @@ export const auth = async (req, res) => {
                 type: 'oauth-success',
                 token: '${token}',
                 redirectTo: '${redirectRoute}'
-              }, 'https://eventify-calendar-discord.vercel.app'); 
+              }, 'https://eventify-calendar-discord.vercel.app');
               window.close();
             </script>
           `);
